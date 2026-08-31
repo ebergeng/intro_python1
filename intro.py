@@ -1,6 +1,7 @@
-navn = "Erlend"
-alder = 98
-student = False
+navn = input("hva er ditt navn? ")
+alder = int(input("hvor gammel er du? ")) 
 
-print("mitt navn er", navn, "og jeg er", alder, "år gammel")
-
+if alder >= 18:
+    print("yey du kan kjøpe øl")
+else:
+    print("du er ikke gammel nok til å kjøpe øl")
