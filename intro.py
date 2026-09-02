@@ -1,19 +1,8 @@
 #if settninger
+allder = 10
 
-alder = 6
-##################################################
-if alder > 15:
-    print("du går på vgs")
-
-elif alder <= 15 and alder >= 13:
-    print("du går på ungdomskolen")
-
-elif alder < 13 and alder > 5:
-    print("du går på barneskolen")
-
+if allder >= 15:
+    print("tillat")
 else:
-    print("du går ikke på skolen")
-##################################################
+    print("ikke tillat")
 
-if alder == 4:
-    print("lols")
